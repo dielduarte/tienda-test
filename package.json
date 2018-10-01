@@ -8,7 +8,9 @@
     "build": "next build",
     "start": "next start",
     "test": "jest",
-    "test:watch": "npm test -- --watch"
+    "test:watch": "npm test -- --watch",
+    "docz:dev": "docz dev -p 4000",
+    "docz:build": "docz build"
   },
   "author": "Diel Duarte",
   "license": "MIT",
@@ -23,6 +25,7 @@
     "babel-jest": "^23.6.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "docz": "^0.12.5",
     "enzyme": "^3.6.0",
     "enzyme-adapter-react-16": "^1.5.0",
     "enzyme-to-json": "^3.3.4",
