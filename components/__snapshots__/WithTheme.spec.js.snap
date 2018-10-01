@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WithTheme Regular 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "darkGray": "#333",
+      "gray": "#b5b5b5",
+      "lightBlue": "#68bcce",
+      "lightGray": "#f5f5f5",
+      "white": "#FFF",
+    }
+  }
+/>
+`;
