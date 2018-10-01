@@ -14,10 +14,7 @@ export default class AppDocument extends Document {
   render() {
     return (
       <html>
-        <Head>
-          <title>Tienda nube - Dashboard</title>
-          {this.props.styleTags}
-        </Head>
+        <Head>{this.props.styleTags}</Head>
         <body>
           <Main />
           <NextScript />
