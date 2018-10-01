@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar => Ui Owner 1`] = `
+<styled.h3
+  className=""
+/>
+`;
+
+exports[`Sidebar => Ui SidebarContainer 1`] = `
+.c0 {
+  width: 340px;
+  height: 100vh;
+  overflow: scroll;
+  border-right: 2px solid;
+}
+
+<aside
+  className="c0"
+/>
+`;
+
+exports[`Sidebar => Ui SidebarHeader 1`] = `
+.c0 {
+  padding: 15px;
+}
+
+<div
+  className="c0"
+/>
+`;

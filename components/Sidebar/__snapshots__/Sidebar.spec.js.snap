@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar should render correctly 1`] = `
+<styled.aside>
+  <styled.div>
+    <styled.div>
+      <img
+        src="http://localhost:3000/static/logo.svg"
+      />
+      <styled.div>
+        <styled.h3>
+          Minha loja
+        </styled.h3>
+        <Styled(styled.h3)>
+          Martín Palombo
+        </Styled(styled.h3)>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</styled.aside>
+`;

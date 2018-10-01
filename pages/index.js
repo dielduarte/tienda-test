@@ -1,1 +1,3 @@
-export default () => <div>Welcome to next.js!</div>;
+import Sidebar from '../components/Sidebar';
+
+export default () => <Sidebar storeName="Minha loja" owner="Martín Palombo" />;
