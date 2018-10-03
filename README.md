@@ -10,12 +10,14 @@ then to run the project:
 npm run dev || yarn run dev
 ```
 
+obs: also you can see the live project [here](https://tiendanube-test-htllappcsk.now.sh)
+
 ## Docz
 
 I'm using `docz` to create a documentation of each dumb component used to create the project. So, to run docz:
 
 ```
-npmm run docz:dev || yarn docz:dev
+npm run docz:dev || yarn docz:dev
 ```
 
 ## tests
