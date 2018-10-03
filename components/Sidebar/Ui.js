@@ -7,6 +7,9 @@ export const SidebarContainer = styled.aside`
   overflow: scroll;
   background-color: ${props => props.theme.darkGray};
   border-right: 2px solid ${props => props.theme.gray};
+  transition: all 0.3s linear;
+  position: absolute;
+  left: ${props => (props.isOpen ? '0' : '-320px')};
 `;
 
 export const SidebarHeader = styled.div`

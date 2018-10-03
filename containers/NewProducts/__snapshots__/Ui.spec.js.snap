@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`NewProducts => Ui should render correctly 1`] = `
-<withState(WithConsumer(lifecycle(layoutDefaut)))>
+<withState(WithConsumer(lifecycle(withHandlers(layoutDefaut))))>
   <Formik
     enableReinitialize={false}
     initialValues={Object {}}
@@ -13,5 +13,5 @@ exports[`NewProducts => Ui should render correctly 1`] = `
   >
     <Component />
   </Formik>
-</withState(WithConsumer(lifecycle(layoutDefaut)))>
+</withState(WithConsumer(lifecycle(withHandlers(layoutDefaut))))>
 `;

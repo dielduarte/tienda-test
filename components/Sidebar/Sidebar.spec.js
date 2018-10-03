@@ -11,6 +11,7 @@ describe('Sidebar', () => {
         storeName="Minha loja"
         owner="Martín Palombo"
         shopLink="link.paraloja.com"
+        open
       >
         <MenuList
           items={[

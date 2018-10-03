@@ -18,6 +18,27 @@ exports[`Content should render correctly 1`] = `
   height: 100vh;
   overflow-y: scroll;
   padding-bottom: 50px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  padding-left: 0;
+}
+
+<section
+  className="c0"
+/>
+`;
+
+exports[`Content should render correctly isOpen 1`] = `
+.c0 {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  height: 100vh;
+  overflow-y: scroll;
+  padding-bottom: 50px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  padding-left: 0;
 }
 
 <section

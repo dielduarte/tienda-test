@@ -31,4 +31,12 @@ describe('Reducers', () => {
     expect(state.products.length).toEqual(1);
     expect(state.products[0]).toEqual(newProduct);
   });
+
+  it('should toggle value of showSidebar', () => {
+    const state = reducer(
+      { ...initialValue, ui: { showSidebar: true } },
+      { type: actionTypes.TOGGLE_SIDEBAR }
+    );
+    expect(state.ui.showSidebar).toBeFalsy();
+  });
 });

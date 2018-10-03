@@ -9,6 +9,11 @@ describe('Content', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
+  it('should render correctly isOpen', () => {
+    const wrapper = shallow(<Content isOpen={false} />);
+    expect(wrapper).toMatchSnapshot();
+  });
+
   it('ContentSpace', () => {
     const wrapper = shallow(<ContentSpace />);
     expect(wrapper).toMatchSnapshot();

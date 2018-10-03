@@ -8,6 +8,10 @@ const actions = [
   {
     nameSpace: 'products',
     types: ['ADD_PRODUCT']
+  },
+  {
+    nameSpace: 'UI',
+    types: ['TOGGLE_SIDEBAR']
   }
 ];
 

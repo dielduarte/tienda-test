@@ -1,7 +1,7 @@
 import React from 'react';
 import Router from 'next/router';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { compose, lifecycle, withState } from 'recompose';
+import { compose, lifecycle, withState, withHandlers } from 'recompose';
 
 import Sidebar from '../../components/Sidebar';
 import MenuList from '../../components/MenuList';
@@ -10,14 +10,20 @@ import Content, { ContentSpace } from '../../components/Content';
 import Card from '../../components/Card';
 import { Regular } from '../../components/Text';
 import WithConsumer from '../../utils/WithConsumer';
+import actionTypes from '../../store/actionTypes';
 
-function layoutDefaut({ children, isProductRouter }) {
+const toggleSidebar = props => () => {
+  props.dispatch({ type: actionTypes.TOGGLE_SIDEBAR });
+};
+
+function layoutDefaut({ children, isProductRouter, store, toggleSidebar }) {
   return (
     <Row>
       <Sidebar
         storeName="Minha loja"
         owner="Martín Palombo"
         shopLink="teste-brasil.lojavirtualnuvem.com"
+        open={store.ui.showSidebar}
       >
         <MenuList
           items={[
@@ -26,10 +32,14 @@ function layoutDefaut({ children, isProductRouter }) {
           ]}
         />
       </Sidebar>
-      <Content>
+      <Content isOpen={store.ui.showSidebar}>
         <Card>
           <Row>
-            <FontAwesomeIcon icon="bars" style={{ marginRight: '10px' }} />
+            <FontAwesomeIcon
+              icon="bars"
+              style={{ marginRight: '10px' }}
+              onClick={toggleSidebar}
+            />
             <Regular>
               Meus produtos {!isProductRouter && '/ Adicionar um produto'}
             </Regular>
@@ -49,5 +59,6 @@ export default compose(
       const isProductRouter = Router.route === '/products';
       this.props.setIsProductRouter(isProductRouter);
     }
-  })
+  }),
+  withHandlers({ toggleSidebar })
 )(layoutDefaut);

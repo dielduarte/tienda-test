@@ -5,9 +5,9 @@ import { Row, Column } from '../Flex';
 import Button from '../Button';
 import { SidebarContainer, SidebarHeader, Owner, SidebarIcon } from './Ui';
 
-function Sidebar({ storeName, owner, shopLink, children }) {
+function Sidebar({ storeName, owner, shopLink, children, open }) {
   return (
-    <SidebarContainer>
+    <SidebarContainer isOpen={open}>
       <SidebarHeader>
         <Row>
           <SidebarIcon src="http://localhost:3000/static/logo.svg" />

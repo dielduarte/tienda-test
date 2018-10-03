@@ -6,6 +6,8 @@ const Content = styled.section`
   background-color: ${props => props.theme.lightGray};
   overflow-y: scroll;
   padding-bottom: 50px;
+  transition: all 0.3s linear;
+  padding-left: ${props => (props.isOpen ? '320px' : '0')};
 `;
 
 export const ContentSpace = styled.div`

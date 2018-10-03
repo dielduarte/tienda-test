@@ -1,7 +1,10 @@
 import actionTypes from './actionTypes';
 
 export const initialValue = {
-  products: []
+  products: [],
+  ui: {
+    showSidebar: true
+  }
 };
 
 export default (state, action) => {
@@ -9,10 +12,9 @@ export default (state, action) => {
     case actionTypes.RESET:
       return initialValue;
     case actionTypes.ADD_PRODUCT:
-      return {
-        ...state,
-        products: [...state.products, action.newProduct]
-      };
+      return { ...state, products: [...state.products, action.newProduct] };
+    case actionTypes.TOGGLE_SIDEBAR:
+      return { ...state, ui: { showSidebar: !state.ui.showSidebar } };
 
     default:
       return state;

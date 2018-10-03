@@ -12,6 +12,10 @@ exports[`Sidebar => Ui SidebarContainer 1`] = `
   height: 100vh;
   overflow: scroll;
   border-right: 2px solid;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: absolute;
+  left: -320px;
 }
 
 <aside

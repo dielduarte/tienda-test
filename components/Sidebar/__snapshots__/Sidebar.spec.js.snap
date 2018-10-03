@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Sidebar should render correctly 1`] = `
-<styled.aside>
+<styled.aside
+  isOpen={true}
+>
   <styled.div>
     <styled.div>
       <styled.img

@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ProductsList => Ui should render correctly 1`] = `
-<withState(WithConsumer(lifecycle(layoutDefaut)))>
+<withState(WithConsumer(lifecycle(withHandlers(layoutDefaut))))>
   <styled.div
     bordered={false}
   >
@@ -102,5 +102,5 @@ exports[`ProductsList => Ui should render correctly 1`] = `
       </styled.tr>
     </Table>
   </styled.div>
-</withState(WithConsumer(lifecycle(layoutDefaut)))>
+</withState(WithConsumer(lifecycle(withHandlers(layoutDefaut))))>
 `;
