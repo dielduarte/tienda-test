@@ -20,6 +20,8 @@ I'm using `docz` to create a documentation of each dumb component used to create
 npm run docz:dev || yarn docz:dev
 ```
 
+obs: I've uploaded the documentation live [here](https://dist-xovcpsdwod.now.sh)
+
 ## tests
 
 I'm using `jest` to unit and snapshopt tests, to run the tests:
