@@ -61,6 +61,12 @@ exports[`PhotoUpload should render correctly 1`] = `
   font-size: 40px;
 }
 
+@media (max-width:480px) {
+  .c3 {
+    width: calc(50% - 20px);
+  }
+}
+
 <withState(withState(lifecycle(withHandlers(PhotoUpload))))
   label="label teste"
   onUploadSuccess={[Function]}

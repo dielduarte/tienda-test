@@ -16,6 +16,20 @@ exports[`Flex Column 1`] = `
 />
 `;
 
+exports[`Flex ResponsiveRow 1`] = `
+@media (max-width:480px) {
+  .c0 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+<styled.div
+  className="c0"
+/>
+`;
+
 exports[`Flex Row 1`] = `
 .c0 {
   display: -webkit-box;

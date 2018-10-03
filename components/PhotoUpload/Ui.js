@@ -32,6 +32,10 @@ export const DashedContainer = styled.div`
   &:hover {
     cursor: ${props => (props.withHover ? 'pointer' : 'default')};
   }
+
+  @media (max-width: 480px) {
+    width: calc(50% - 20px);
+  }
 `;
 
 export const Icon = styled(FontAwesomeIcon)`

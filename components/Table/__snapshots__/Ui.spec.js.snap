@@ -26,6 +26,7 @@ exports[`Table => Ui Table 1`] = `
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
+  min-width: 600px;
 }
 
 <table

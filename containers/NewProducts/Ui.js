@@ -6,7 +6,7 @@ import DefaultLayout from '../layouts/default';
 import PhotoUpload from '../../components/PhotoUpload';
 import Card from '../../components/Card';
 import { Input, Editor } from '../../components/Forms';
-import { Row } from '../../components/Flex';
+import { Row, ResponsiveRow } from '../../components/Flex';
 import Button from '../../components/Button';
 
 const FixedContainer = styled.div`
@@ -51,7 +51,7 @@ function Ui({ initialValues, validationSchema, addProduct }) {
             </Card>
 
             <Card bordered>
-              <Row>
+              <ResponsiveRow>
                 <FixedContainer>
                   <Input
                     label="Preço"
@@ -72,7 +72,7 @@ function Ui({ initialValues, validationSchema, addProduct }) {
                     value={values.stock}
                   />
                 </FixedContainer>
-              </Row>
+              </ResponsiveRow>
             </Card>
 
             <Row>

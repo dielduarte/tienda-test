@@ -1,7 +1,7 @@
 import { shallow } from 'enzyme';
 import 'jest-styled-components';
 
-import { Row, Column } from './Flex';
+import { Row, Column, ResponsiveRow } from './Flex';
 
 describe('Flex', () => {
   it('Row', () => {
@@ -16,6 +16,11 @@ describe('Flex', () => {
 
   it('Column', () => {
     const wrapper = shallow(<Column />);
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  it('ResponsiveRow', () => {
+    const wrapper = shallow(<ResponsiveRow />);
     expect(wrapper).toMatchSnapshot();
   });
 });

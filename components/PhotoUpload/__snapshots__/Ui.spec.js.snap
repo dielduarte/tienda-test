@@ -45,6 +45,12 @@ exports[`PhotoUpload => Ui DashedContainer 1`] = `
   cursor: default;
 }
 
+@media (max-width:480px) {
+  .c0 {
+    width: calc(50% - 20px);
+  }
+}
+
 <div
   className="c0"
 />
@@ -83,6 +89,12 @@ exports[`PhotoUpload => Ui DashedContainer withHover 1`] = `
 
 .c0:hover {
   cursor: pointer;
+}
+
+@media (max-width:480px) {
+  .c0 {
+    width: calc(50% - 20px);
+  }
 }
 
 <div

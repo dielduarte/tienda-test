@@ -4,6 +4,7 @@ export const Table = styled.table`
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
+  min-width: 600px;
 
   tr:nth-child(odd) {
     background: ${props => props.theme.white};
