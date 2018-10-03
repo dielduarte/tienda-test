@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table shoud render correctly 1`] = `
+<styled.table>
+  <thead>
+    <styled.tr>
+      <styled.th
+        key="0"
+      >
+        Produto
+      </styled.th>
+      <styled.th
+        key="1"
+      >
+        Estoque
+      </styled.th>
+      <styled.th
+        key="2"
+      >
+        Preço original
+      </styled.th>
+      <styled.th
+        key="3"
+      >
+        Preço promocional variaçoões
+      </styled.th>
+      <styled.th
+        key="4"
+      >
+        Ações
+      </styled.th>
+    </styled.tr>
+  </thead>
+  <tbody>
+    <styled.tr>
+      <styled.td>
+        content
+      </styled.td>
+      <styled.td>
+        content
+      </styled.td>
+      <styled.td>
+        content
+      </styled.td>
+      <styled.td>
+        content
+      </styled.td>
+      <styled.td>
+        content
+      </styled.td>
+    </styled.tr>
+    <styled.tr>
+      <styled.td>
+        content
+      </styled.td>
+      <styled.td>
+        content
+      </styled.td>
+      <styled.td>
+        content
+      </styled.td>
+      <styled.td>
+        content
+      </styled.td>
+      <styled.td>
+        content
+      </styled.td>
+    </styled.tr>
+  </tbody>
+</styled.table>
+`;

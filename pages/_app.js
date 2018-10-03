@@ -1,8 +1,12 @@
 import App, { Container } from 'next/app';
 import React from 'react';
-import WithTheme from '../components/WithTheme';
 
-export default class MyApp extends App {
+import WithTheme from '../components/WithTheme';
+import WithStore from '../utils/WithStore';
+
+import '../config/fontAwesome';
+
+class TiendaNubeApp extends App {
   static async getInitialProps({ Component, router, ctx }) {
     let pageProps = {};
 
@@ -17,10 +21,14 @@ export default class MyApp extends App {
     const { Component, pageProps } = this.props;
     return (
       <Container>
-        <WithTheme>
-          <Component {...pageProps} />
-        </WithTheme>
+        <WithStore>
+          <WithTheme>
+            <Component {...pageProps} />
+          </WithTheme>
+        </WithStore>
       </Container>
     );
   }
 }
+
+export default TiendaNubeApp;

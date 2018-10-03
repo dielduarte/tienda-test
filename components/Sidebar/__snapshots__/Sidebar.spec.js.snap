@@ -4,7 +4,7 @@ exports[`Sidebar should render correctly 1`] = `
 <styled.aside>
   <styled.div>
     <styled.div>
-      <img
+      <styled.img
         src="http://localhost:3000/static/logo.svg"
       />
       <styled.div>
@@ -16,6 +16,31 @@ exports[`Sidebar should render correctly 1`] = `
         </Styled(styled.h3)>
       </styled.div>
     </styled.div>
+    <styled.div>
+      <Button
+        bordered={true}
+        full={true}
+        iconName="external-link-alt"
+        onClick={[Function]}
+        title="link.paraloja.com"
+        type="primary"
+        uppercase={false}
+      />
+    </styled.div>
   </styled.div>
+  <MenuList
+    items={
+      Array [
+        Object {
+          "href": "/products",
+          "title": "Produtos",
+        },
+        Object {
+          "href": "/products/new",
+          "title": "Adicionar um novo produto",
+        },
+      ]
+    }
+  />
 </styled.aside>
 `;

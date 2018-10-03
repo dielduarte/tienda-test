@@ -8,7 +8,7 @@ exports[`Sidebar => Ui Owner 1`] = `
 
 exports[`Sidebar => Ui SidebarContainer 1`] = `
 .c0 {
-  width: 340px;
+  width: 320px;
   height: 100vh;
   overflow: scroll;
   border-right: 2px solid;
@@ -26,5 +26,16 @@ exports[`Sidebar => Ui SidebarHeader 1`] = `
 
 <div
   className="c0"
+/>
+`;
+
+exports[`Sidebar => Ui SidebarIcon 1`] = `
+.c0 {
+  margin-right: 10px;
+}
+
+<img
+  className="c0"
+  src="http://cdn.nuvem/static.png"
 />
 `;

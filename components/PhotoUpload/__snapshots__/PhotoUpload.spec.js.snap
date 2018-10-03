@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhotoUpload should render correctly 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0 {
+  padding: 30px 20px 10px 20px;
+}
+
+.c1 {
+  font-size: 14px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: dashed 2px;
+  width: calc(25% - 20px);
+  height: 150px;
+  margin: 20px 20px 0 0;
+}
+
+.c3 input {
+  visibility: hidden;
+  width: 0;
+}
+
+.c3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.c3:hover {
+  cursor: pointer;
+}
+
+.c4 {
+  font-size: 40px;
+}
+
+<withState(withState(lifecycle(withHandlers(PhotoUpload))))
+  label="label teste"
+  onUploadSuccess={[Function]}
+>
+  <withState(lifecycle(withHandlers(PhotoUpload)))
+    label="label teste"
+    onUploadSuccess={[Function]}
+    setUploadInputRef={[Function]}
+    uploadInputRef={
+      Object {
+        "current": <input
+          type="file"
+        />,
+      }
+    }
+  >
+    <lifecycle(withHandlers(PhotoUpload))
+      label="label teste"
+      onUploadSuccess={[Function]}
+      photos={Array []}
+      setPhotos={[Function]}
+      setUploadInputRef={[Function]}
+      uploadInputRef={
+        Object {
+          "current": <input
+            type="file"
+          />,
+        }
+      }
+    >
+      <withHandlers(PhotoUpload)
+        label="label teste"
+        onUploadSuccess={[Function]}
+        photos={Array []}
+        setPhotos={[Function]}
+        setUploadInputRef={[Function]}
+        uploadInputRef={
+          Object {
+            "current": <input
+              type="file"
+            />,
+          }
+        }
+      >
+        <PhotoUpload
+          label="label teste"
+          onUploadSuccess={[Function]}
+          openFileSearch={[Function]}
+          photos={Array []}
+          setPhotos={[Function]}
+          setUploadInputRef={[Function]}
+          uploadInputRef={
+            Object {
+              "current": <input
+                type="file"
+              />,
+            }
+          }
+          uploadPhoto={[Function]}
+        >
+          <styled.div>
+            <div
+              className="c0"
+            >
+              <styled.label>
+                <label
+                  className="c1"
+                >
+                  label teste
+                </label>
+              </styled.label>
+              <styled.div
+                wrap="true"
+              >
+                <div
+                  className="c2"
+                  wrap="true"
+                >
+                  <styled.div
+                    onClick={[Function]}
+                    withHover={true}
+                  >
+                    <div
+                      className="c3"
+                      onClick={[Function]}
+                    >
+                      <input
+                        onChange={[Function]}
+                        type="file"
+                      />
+                      <Styled(FontAwesomeIcon)
+                        icon="camera"
+                      >
+                        <FontAwesomeIcon
+                          border={false}
+                          className="c4"
+                          fixedWidth={false}
+                          flip={null}
+                          icon="camera"
+                          inverse={false}
+                          listItem={false}
+                          mask={null}
+                          pull={null}
+                          pulse={false}
+                          rotation={null}
+                          size={null}
+                          spin={false}
+                          symbol={false}
+                          title=""
+                          transform={null}
+                        >
+                          <svg
+                            aria-hidden="true"
+                            className="svg-inline--fa fa-camera fa-w-16 c4"
+                            data-icon="camera"
+                            data-prefix="fas"
+                            role="img"
+                            style={Object {}}
+                            viewBox="0 0 512 512"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M512 144v288c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V144c0-26.5 21.5-48 48-48h88l12.3-32.9c7-18.7 24.9-31.1 44.9-31.1h125.5c20 0 37.9 12.4 44.9 31.1L376 96h88c26.5 0 48 21.5 48 48zM376 288c0-66.2-53.8-120-120-120s-120 53.8-120 120 53.8 120 120 120 120-53.8 120-120zm-32 0c0 48.5-39.5 88-88 88s-88-39.5-88-88 39.5-88 88-88 88 39.5 88 88z"
+                              fill="currentColor"
+                              style={Object {}}
+                            />
+                          </svg>
+                        </FontAwesomeIcon>
+                      </Styled(FontAwesomeIcon)>
+                    </div>
+                  </styled.div>
+                </div>
+              </styled.div>
+            </div>
+          </styled.div>
+        </PhotoUpload>
+      </withHandlers(PhotoUpload)>
+    </lifecycle(withHandlers(PhotoUpload))>
+  </withState(lifecycle(withHandlers(PhotoUpload)))>
+</withState(withState(lifecycle(withHandlers(PhotoUpload))))>
+`;
+
+exports[`PhotoUpload should render the photo list 1`] = `
+<lifecycle(withHandlers(PhotoUpload))
+  label="label teste"
+  onUploadSuccess={[Function]}
+  photos={
+    Array [
+      "https://cdn.nuvem.com/image1.png",
+      "https://cdn.nuvem.com/image2.png",
+    ]
+  }
+  setPhotos={[Function]}
+  setUploadInputRef={[Function]}
+  uploadInputRef={null}
+/>
+`;
+
+exports[`PhotoUpload should render the photo list 2`] = `
+Array [
+  <styled.div>
+    <img
+      src="https://cdn.nuvem.com/image1.png"
+    />
+  </styled.div>,
+  <styled.div>
+    <img
+      src="https://cdn.nuvem.com/image2.png"
+    />
+  </styled.div>,
+]
+`;

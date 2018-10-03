@@ -1,0 +1,17 @@
+---
+name: MenuList
+---
+
+import '../../config/fontAwesome';
+import { Playground, PropsTable } from 'docz'
+import MenuList from './MenuList';
+
+# MenuList
+
+<Playground style={{ background: '#333' }}>
+  <MenuList items={[
+      { title: 'Produtos', href: '/products' },
+      { title: 'Adicionar um novo produto', href: '/products/new' }
+    ]}
+  />
+</Playground>

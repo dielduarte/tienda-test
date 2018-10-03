@@ -5,8 +5,8 @@ injectGlobal`
   * { 
     margin: 0;
     padding: 0;
-    border-box: box-sizing;
-    font-family: 'Source Sans Pro',Helvetica,sans-serif;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', Helvetica,sans-serif;
   }
 `;
 
@@ -15,7 +15,8 @@ const theme = {
   darkGray: '#333',
   gray: '#b5b5b5',
   lightGray: '#f5f5f5',
-  lightBlue: '#68bcce'
+  lightBlue: '#68bcce',
+  red: 'red'
 };
 
 function WithTheme({ children }) {

@@ -1,0 +1,493 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render correctly 1`] = `
+<styled.button
+  bordered={false}
+  full={false}
+  hasIcon={false}
+  onClick={[MockFunction]}
+  type="primary"
+  uppercase={true}
+>
+  <Styled(styled.h3)
+    hasIcon={false}
+    type="primary"
+  >
+    ir para minha loja
+  </Styled(styled.h3)>
+</styled.button>
+`;
+
+exports[`Button should render correctly 2`] = `
+<styled.button
+  bordered={false}
+  full={false}
+  hasIcon={false}
+  onClick={[MockFunction]}
+  type="primary"
+  uppercase={true}
+>
+  <Styled(styled.h3)
+    hasIcon={false}
+    type="primary"
+  >
+    ir para minha loja
+  </Styled(styled.h3)>
+</styled.button>
+`;
+
+exports[`Button should render correctly default bordered 1`] = `
+<Button
+  bordered={true}
+  full={false}
+  iconName=""
+  onClick={[MockFunction]}
+  title="ir para minha loja"
+  type="primary"
+  uppercase={true}
+>
+  <styled.button
+    bordered={true}
+    full={false}
+    hasIcon={false}
+    onClick={[MockFunction]}
+    type="primary"
+    uppercase={true}
+  >
+    <button
+      className="sc-htpNat fgVBRt"
+      onClick={[MockFunction]}
+      type="primary"
+    >
+      <Styled(styled.h3)
+        hasIcon={false}
+        type="primary"
+      >
+        <styled.h3
+          className="sc-bxivhb BNaU"
+          hasIcon={false}
+          type="primary"
+        >
+          <h3
+            className="sc-bxivhb BNaU sc-bwzfXH fVwpAF"
+            type="primary"
+          >
+            ir para minha loja
+          </h3>
+        </styled.h3>
+      </Styled(styled.h3)>
+    </button>
+  </styled.button>
+</Button>
+`;
+
+exports[`Button should render correctly full  1`] = `
+<Button
+  bordered={false}
+  full={true}
+  iconName="external-link-alt"
+  onClick={[MockFunction]}
+  title="ir para minha loja"
+  type="secondary"
+  uppercase={true}
+>
+  <styled.button
+    bordered={false}
+    full={true}
+    hasIcon={true}
+    onClick={[MockFunction]}
+    type="secondary"
+    uppercase={true}
+  >
+    <button
+      className="sc-htpNat dlGtLc"
+      onClick={[MockFunction]}
+      type="secondary"
+    >
+      <Styled(styled.h3)
+        hasIcon={true}
+        type="secondary"
+      >
+        <styled.h3
+          className="sc-bxivhb fZQpID"
+          hasIcon={true}
+          type="secondary"
+        >
+          <h3
+            className="sc-bxivhb fZQpID sc-bwzfXH fVwpAF"
+            type="secondary"
+          >
+            ir para minha loja
+          </h3>
+        </styled.h3>
+      </Styled(styled.h3)>
+      <Styled(FontAwesomeIcon)
+        icon="external-link-alt"
+        type="secondary"
+      >
+        <FontAwesomeIcon
+          border={false}
+          className="sc-ifAKCX eXRWbD"
+          fixedWidth={false}
+          flip={null}
+          icon="external-link-alt"
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size={null}
+          spin={false}
+          symbol={false}
+          title=""
+          transform={null}
+          type="secondary"
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-external-link-alt fa-w-18 sc-ifAKCX eXRWbD"
+            data-icon="external-link-alt"
+            data-prefix="fas"
+            role="img"
+            style={Object {}}
+            type="secondary"
+            viewBox="0 0 576 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </FontAwesomeIcon>
+      </Styled(FontAwesomeIcon)>
+    </button>
+  </styled.button>
+</Button>
+`;
+
+exports[`Button should render correctly secondary bordered 1`] = `
+<Button
+  bordered={true}
+  full={false}
+  iconName=""
+  onClick={[MockFunction]}
+  title="ir para minha loja"
+  type="secondary"
+  uppercase={true}
+>
+  <styled.button
+    bordered={true}
+    full={false}
+    hasIcon={false}
+    onClick={[MockFunction]}
+    type="secondary"
+    uppercase={true}
+  >
+    <button
+      className="sc-htpNat fgVBRt"
+      onClick={[MockFunction]}
+      type="secondary"
+    >
+      <Styled(styled.h3)
+        hasIcon={false}
+        type="secondary"
+      >
+        <styled.h3
+          className="sc-bxivhb BNaU"
+          hasIcon={false}
+          type="secondary"
+        >
+          <h3
+            className="sc-bxivhb BNaU sc-bwzfXH fVwpAF"
+            type="secondary"
+          >
+            ir para minha loja
+          </h3>
+        </styled.h3>
+      </Styled(styled.h3)>
+    </button>
+  </styled.button>
+</Button>
+`;
+
+exports[`Button should render correctly secondary with icon  1`] = `
+<Button
+  bordered={false}
+  full={false}
+  iconName="external-link-alt"
+  onClick={[MockFunction]}
+  title="ir para minha loja"
+  type="secondary"
+  uppercase={true}
+>
+  <styled.button
+    bordered={false}
+    full={false}
+    hasIcon={true}
+    onClick={[MockFunction]}
+    type="secondary"
+    uppercase={true}
+  >
+    <button
+      className="sc-htpNat ksxVFh"
+      onClick={[MockFunction]}
+      type="secondary"
+    >
+      <Styled(styled.h3)
+        hasIcon={true}
+        type="secondary"
+      >
+        <styled.h3
+          className="sc-bxivhb fZQpID"
+          hasIcon={true}
+          type="secondary"
+        >
+          <h3
+            className="sc-bxivhb fZQpID sc-bwzfXH fVwpAF"
+            type="secondary"
+          >
+            ir para minha loja
+          </h3>
+        </styled.h3>
+      </Styled(styled.h3)>
+      <Styled(FontAwesomeIcon)
+        icon="external-link-alt"
+        type="secondary"
+      >
+        <FontAwesomeIcon
+          border={false}
+          className="sc-ifAKCX eXRWbD"
+          fixedWidth={false}
+          flip={null}
+          icon="external-link-alt"
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size={null}
+          spin={false}
+          symbol={false}
+          title=""
+          transform={null}
+          type="secondary"
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-external-link-alt fa-w-18 sc-ifAKCX eXRWbD"
+            data-icon="external-link-alt"
+            data-prefix="fas"
+            role="img"
+            style={Object {}}
+            type="secondary"
+            viewBox="0 0 576 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </FontAwesomeIcon>
+      </Styled(FontAwesomeIcon)>
+    </button>
+  </styled.button>
+</Button>
+`;
+
+exports[`Button should render correctly type secondary 1`] = `
+<styled.button
+  bordered={false}
+  full={false}
+  hasIcon={false}
+  onClick={[MockFunction]}
+  type="secondary"
+  uppercase={true}
+>
+  <Styled(styled.h3)
+    hasIcon={false}
+    type="secondary"
+  >
+    ir para minha loja
+  </Styled(styled.h3)>
+</styled.button>
+`;
+
+exports[`Button should render correctly uppercase false 1`] = `
+<Button
+  bordered={false}
+  full={false}
+  iconName="external-link-alt"
+  onClick={[MockFunction]}
+  title="ir para minha loja"
+  type="primary"
+  uppercase={false}
+>
+  <styled.button
+    bordered={false}
+    full={false}
+    hasIcon={true}
+    onClick={[MockFunction]}
+    type="primary"
+    uppercase={false}
+  >
+    <button
+      className="sc-htpNat dKIsdR"
+      onClick={[MockFunction]}
+      type="primary"
+    >
+      <Styled(styled.h3)
+        hasIcon={true}
+        type="primary"
+      >
+        <styled.h3
+          className="sc-bxivhb fZQpID"
+          hasIcon={true}
+          type="primary"
+        >
+          <h3
+            className="sc-bxivhb fZQpID sc-bwzfXH fVwpAF"
+            type="primary"
+          >
+            ir para minha loja
+          </h3>
+        </styled.h3>
+      </Styled(styled.h3)>
+      <Styled(FontAwesomeIcon)
+        icon="external-link-alt"
+        type="primary"
+      >
+        <FontAwesomeIcon
+          border={false}
+          className="sc-ifAKCX eXRWbD"
+          fixedWidth={false}
+          flip={null}
+          icon="external-link-alt"
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size={null}
+          spin={false}
+          symbol={false}
+          title=""
+          transform={null}
+          type="primary"
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-external-link-alt fa-w-18 sc-ifAKCX eXRWbD"
+            data-icon="external-link-alt"
+            data-prefix="fas"
+            role="img"
+            style={Object {}}
+            type="primary"
+            viewBox="0 0 576 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </FontAwesomeIcon>
+      </Styled(FontAwesomeIcon)>
+    </button>
+  </styled.button>
+</Button>
+`;
+
+exports[`Button should render correctly with icon 1`] = `
+<Button
+  bordered={false}
+  full={false}
+  iconName="external-link-alt"
+  onClick={[MockFunction]}
+  title="ir para minha loja"
+  type="primary"
+  uppercase={true}
+>
+  <styled.button
+    bordered={false}
+    full={false}
+    hasIcon={true}
+    onClick={[MockFunction]}
+    type="primary"
+    uppercase={true}
+  >
+    <button
+      className="sc-htpNat ksxVFh"
+      onClick={[MockFunction]}
+      type="primary"
+    >
+      <Styled(styled.h3)
+        hasIcon={true}
+        type="primary"
+      >
+        <styled.h3
+          className="sc-bxivhb fZQpID"
+          hasIcon={true}
+          type="primary"
+        >
+          <h3
+            className="sc-bxivhb fZQpID sc-bwzfXH fVwpAF"
+            type="primary"
+          >
+            ir para minha loja
+          </h3>
+        </styled.h3>
+      </Styled(styled.h3)>
+      <Styled(FontAwesomeIcon)
+        icon="external-link-alt"
+        type="primary"
+      >
+        <FontAwesomeIcon
+          border={false}
+          className="sc-ifAKCX eXRWbD"
+          fixedWidth={false}
+          flip={null}
+          icon="external-link-alt"
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size={null}
+          spin={false}
+          symbol={false}
+          title=""
+          transform={null}
+          type="primary"
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-external-link-alt fa-w-18 sc-ifAKCX eXRWbD"
+            data-icon="external-link-alt"
+            data-prefix="fas"
+            role="img"
+            style={Object {}}
+            type="primary"
+            viewBox="0 0 576 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </FontAwesomeIcon>
+      </Styled(FontAwesomeIcon)>
+    </button>
+  </styled.button>
+</Button>
+`;

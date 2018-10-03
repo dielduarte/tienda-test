@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuList should render correcly 1`] = `
+<styled.nav>
+  <Link
+    href="/products"
+    key="0"
+  >
+    <styled.div>
+      <styled.div>
+        <Styled(FontAwesomeIcon)
+          icon="ellipsis-v"
+        />
+        <Styled(FontAwesomeIcon)
+          icon="bars"
+        />
+      </styled.div>
+      <Styled(styled.h3)>
+        Produtos
+      </Styled(styled.h3)>
+      <Styled(FontAwesomeIcon)
+        icon="angle-right"
+        size="lg"
+      />
+    </styled.div>
+  </Link>
+  <Link
+    href="/products/new"
+    key="1"
+  >
+    <styled.div>
+      <styled.div>
+        <Styled(FontAwesomeIcon)
+          icon="ellipsis-v"
+        />
+        <Styled(FontAwesomeIcon)
+          icon="bars"
+        />
+      </styled.div>
+      <Styled(styled.h3)>
+        Adicionar um novo produto
+      </Styled(styled.h3)>
+      <Styled(FontAwesomeIcon)
+        icon="angle-right"
+        size="lg"
+      />
+    </styled.div>
+  </Link>
+</styled.nav>
+`;

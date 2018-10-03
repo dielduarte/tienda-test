@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewProducts => Ui should render correctly 1`] = `
+<withState(WithConsumer(lifecycle(layoutDefaut)))>
+  <Formik
+    enableReinitialize={false}
+    initialValues={Object {}}
+    isInitialValid={false}
+    onSubmit={[Function]}
+    validateOnBlur={true}
+    validateOnChange={false}
+    validationSchema={Object {}}
+  >
+    <Component />
+  </Formik>
+</withState(WithConsumer(lifecycle(layoutDefaut)))>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content ContentSpace 1`] = `
+.c0 {
+  padding: 0 20px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Content should render correctly 1`] = `
+.c0 {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  height: 100vh;
+  overflow-y: scroll;
+  padding-bottom: 50px;
+}
+
+<section
+  className="c0"
+/>
+`;

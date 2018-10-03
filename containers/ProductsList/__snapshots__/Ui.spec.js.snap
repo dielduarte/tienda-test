@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductsList => Ui should render correctly 1`] = `
+<withState(WithConsumer(lifecycle(layoutDefaut)))>
+  <styled.div
+    bordered={false}
+  >
+    <Table
+      headers={
+        Array [
+          "Produto",
+          "Estoque",
+          "Preço original",
+          "Preço promocional",
+          "variaçoões",
+          "Ações",
+        ]
+      }
+    >
+      <styled.tr
+        key="0"
+      >
+        <styled.td>
+          <styled.div>
+            <styled.img
+              src="data:image/jpeg;base64,/9j/2wCEAAgGBgcGBQgHBwcJCQg…1Bby2tykilgAeSK6aHU3aDYxJpos1c9KsCwVUzTVQXKf/2Q=="
+            />
+          </styled.div>
+          <Styled(styled.a)>
+            Product with image
+          </Styled(styled.a)>
+        </styled.td>
+        <styled.td>
+          <styled.div>
+            ∞
+          </styled.div>
+        </styled.td>
+        <styled.td>
+          <styled.div>
+            R$ 
+            123
+          </styled.div>
+        </styled.td>
+        <styled.td>
+          <styled.div>
+            +
+          </styled.div>
+        </styled.td>
+        <styled.td />
+        <styled.td>
+          content
+        </styled.td>
+      </styled.tr>
+      <styled.tr
+        key="1"
+      >
+        <styled.td>
+          <styled.div>
+            <FontAwesomeIcon
+              border={false}
+              className=""
+              fixedWidth={false}
+              flip={null}
+              icon="camera"
+              inverse={false}
+              listItem={false}
+              mask={null}
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size={null}
+              spin={false}
+              symbol={false}
+              title=""
+              transform={null}
+            />
+          </styled.div>
+          <Styled(styled.a)>
+            Product
+          </Styled(styled.a)>
+        </styled.td>
+        <styled.td>
+          <styled.div>
+            1
+          </styled.div>
+        </styled.td>
+        <styled.td>
+          <styled.div>
+            R$ 
+            123
+          </styled.div>
+        </styled.td>
+        <styled.td>
+          <styled.div>
+            +
+          </styled.div>
+        </styled.td>
+        <styled.td />
+        <styled.td>
+          content
+        </styled.td>
+      </styled.tr>
+    </Table>
+  </styled.div>
+</withState(WithConsumer(lifecycle(layoutDefaut)))>
+`;

@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should render correcly 1`] = `
+<Styled(styled.div)>
+  <Styled(styled.div)>
+    <styled.label>
+      name
+    </styled.label>
+    <Styled(styled.div)>
+      <styled.input
+        name="name"
+        onChange={[Function]}
+        placeholder="your name here"
+        withError={false}
+        withPrefix={false}
+      />
+    </Styled(styled.div)>
+  </Styled(styled.div)>
+</Styled(styled.div)>
+`;
+
+exports[`Input should render with error 1`] = `
+<Styled(styled.div)>
+  <Styled(styled.div)>
+    <styled.label>
+      name
+    </styled.label>
+    <Styled(styled.div)>
+      <styled.div>
+        R$
+      </styled.div>
+      <styled.input
+        onChange={[Function]}
+        placeholder="name is required"
+        withError={true}
+        withPrefix={true}
+      />
+    </Styled(styled.div)>
+  </Styled(styled.div)>
+</Styled(styled.div)>
+`;
+
+exports[`Input should render with prefix 1`] = `
+<Styled(styled.div)>
+  <Styled(styled.div)>
+    <styled.label>
+      name
+    </styled.label>
+    <Styled(styled.div)>
+      <styled.div>
+        R$
+      </styled.div>
+      <styled.input
+        onChange={[Function]}
+        placeholder="your name here"
+        withError={false}
+        withPrefix={true}
+      />
+    </Styled(styled.div)>
+  </Styled(styled.div)>
+</Styled(styled.div)>
+`;

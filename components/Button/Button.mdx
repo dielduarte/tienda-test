@@ -1,0 +1,51 @@
+---
+name: Button
+---
+
+import '../../config/fontAwesome';
+import { Playground, PropsTable } from 'docz'
+import Button from './Button';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
+# Button
+
+## Properties
+
+<PropsTable of={Button} />
+
+## Default
+
+<Playground>
+  <Button title="Procurar produto" onClick={() => alert('hey!')} />
+</Playground>
+
+## Bordered
+
+<Playground>
+  <Button title="Cancelar" bordered type="secondary" onClick={() => alert('hey!')} />
+</Playground>
+
+## With Icon
+
+<Playground>
+  <Button 
+    title="ir para minha loja" 
+    bordered
+    iconName="external-link-alt"
+    onClick={() => alert('hey!')}
+  />
+</Playground>
+
+## full
+
+<Playground>
+  <Button 
+    title="ir para minha loja lorem ipsum dolor, big text test, lorem ipsum, lorem ipsum, ir para minha loja lorem ipsum dolor, big text test, lorem ipsum, lorem ipsum" 
+    bordered
+    iconName="external-link-alt"
+    full
+    onClick={() => alert('hey!')}
+  />
+</Playground>

@@ -1,7 +1,7 @@
 import { shallow } from 'enzyme';
 import 'jest-styled-components';
 
-import { SidebarContainer, SidebarHeader, Owner } from './Ui';
+import { SidebarContainer, SidebarHeader, Owner, SidebarIcon } from './Ui';
 
 describe('Sidebar => Ui', () => {
   it('SidebarContainer', () => {
@@ -11,6 +11,11 @@ describe('Sidebar => Ui', () => {
 
   it('SidebarHeader', () => {
     const wrapper = shallow(<SidebarHeader />);
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  it('SidebarIcon', () => {
+    const wrapper = shallow(<SidebarIcon src="http://cdn.nuvem/static.png" />);
     expect(wrapper).toMatchSnapshot();
   });
 

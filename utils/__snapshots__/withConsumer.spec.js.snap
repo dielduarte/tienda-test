@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WithConsumer sould return the wrappedComponent with access to store object and dispatch method 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
