@@ -56,7 +56,8 @@ export default compose(
   WithConsumer,
   lifecycle({
     componentDidMount() {
-      const isProductRouter = Router.route === '/products';
+      const isProductRouter =
+        Router.route === '/products' || Router.route === '/';
       this.props.setIsProductRouter(isProductRouter);
     }
   }),
