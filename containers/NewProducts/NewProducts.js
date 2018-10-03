@@ -1,5 +1,6 @@
 import { compose, withState, withHandlers } from 'recompose';
 const Yup = require('yup');
+import Router from 'next/router';
 
 import WithConsumer from '../../utils/WithConsumer';
 import { actionTypes } from '../../store';
@@ -19,15 +20,16 @@ const validationSchema = Yup.object().shape({
   price: Yup.number().required('Preço é obrigatorio')
 });
 
-export const addProduct = props => newProduct => {
+export const addProduct = Router => props => newProduct => {
   const { dispatch } = props;
 
   dispatch({ type: actionTypes.ADD_PRODUCT, newProduct });
+  Router.push('/products');
 };
 
 export default compose(
   withState('initialValues', 'setInitialValues', formValues),
   withState('validationSchema', 'setValidationSchema', validationSchema),
   WithConsumer,
-  withHandlers({ addProduct })
+  withHandlers({ addProduct: addProduct(Router) })
 )(Ui);

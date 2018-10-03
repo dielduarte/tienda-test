@@ -8,7 +8,7 @@ describe('NewProducts', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  it('should call ADD_PRODUCT action passing the new product object', () => {
+  it('should call ADD_PRODUCT action passing the new product object and redirect to products', () => {
     const props = { dispatch: jest.fn() };
     const newProduct = {
       name: 'new product',
@@ -22,7 +22,12 @@ describe('NewProducts', () => {
       newProduct
     };
 
-    addProduct(props)(newProduct);
+    const Router = {
+      push: jest.fn()
+    };
+
+    addProduct(Router)(props)(newProduct);
     expect(props.dispatch).toHaveBeenCalledWith(expectedAction);
+    expect(Router.push).toHaveBeenCalledWith('/products');
   });
 });
