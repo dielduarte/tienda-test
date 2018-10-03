@@ -104,3 +104,15 @@ exports[`ProductsList => Ui should render correctly 1`] = `
   </styled.div>
 </withState(WithConsumer(lifecycle(withHandlers(layoutDefaut))))>
 `;
+
+exports[`ProductsList => Ui should render correctly the empty message 1`] = `
+<withState(WithConsumer(lifecycle(withHandlers(layoutDefaut))))>
+  <styled.div
+    bordered={false}
+  >
+    <styled.h3>
+      Você ainda naão cadastrou nenhum produto :(
+    </styled.h3>
+  </styled.div>
+</withState(WithConsumer(lifecycle(withHandlers(layoutDefaut))))>
+`;

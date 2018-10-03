@@ -11,6 +11,7 @@ import Table, {
   TableImg
 } from '../../components/Table';
 import Link from '../../components/Link';
+import { Regular } from '../../components/Text';
 
 const ProductName = styled(Link)`
   margin-left: 10px;
@@ -52,18 +53,22 @@ function Ui({ store }) {
   return (
     <DefaultLayout>
       <Card>
-        <Table
-          headers={[
-            'Produto',
-            'Estoque',
-            'Preço original',
-            'Preço promocional',
-            'variaçoões',
-            'Ações'
-          ]}
-        >
-          {products.map((product, key) => renderRow(product, key))}
-        </Table>
+        {!products.length ? (
+          <Regular>Você ainda naão cadastrou nenhum produto :(</Regular>
+        ) : (
+          <Table
+            headers={[
+              'Produto',
+              'Estoque',
+              'Preço original',
+              'Preço promocional',
+              'variaçoões',
+              'Ações'
+            ]}
+          >
+            {products.map((product, key) => renderRow(product, key))}
+          </Table>
+        )}
       </Card>
     </DefaultLayout>
   );

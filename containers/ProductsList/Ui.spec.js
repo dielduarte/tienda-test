@@ -31,4 +31,15 @@ describe('ProductsList => Ui', () => {
     const wrapper = shallow(<Ui {...props} />);
     expect(wrapper).toMatchSnapshot();
   });
+
+  it('should render correctly the empty message', () => {
+    const props = {
+      store: {
+        products: []
+      }
+    };
+
+    const wrapper = shallow(<Ui {...props} />);
+    expect(wrapper).toMatchSnapshot();
+  });
 });
