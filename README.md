@@ -10,7 +10,7 @@ then to run the project:
 npm run dev || yarn run dev
 ```
 
-obs: also you can see the live project [here](https://tiendanube-test-htllappcsk.now.sh)
+obs: also you can see the live project [here](https://tiendanube-test-iiosczfwba.now.sh)
 
 ## Docz
 
