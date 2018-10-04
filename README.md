@@ -10,7 +10,7 @@ then to run the project:
 npm run dev || yarn run dev
 ```
 
-obs: also you can see the live project [here](https://tiendanube-test-iiosczfwba.now.sh)
+obs: also you can see the live project [here](https://tiendanube-test-jleglyfccw.now.sh)
 
 ## Docz
 
@@ -20,7 +20,7 @@ I'm using `docz` to create a documentation of each dumb component used to create
 npm run docz:dev || yarn docz:dev
 ```
 
-obs: I've uploaded the documentation live [here](https://dist-xovcpsdwod.now.sh)
+obs: I've uploaded the documentation live [here](https://dist-gbxcpvcigb.now.sh/)
 
 ## tests
 
