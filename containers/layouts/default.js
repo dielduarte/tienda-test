@@ -24,6 +24,7 @@ function layoutDefaut({ children, isProductRouter, store, toggleSidebar }) {
         owner="Martín Palombo"
         shopLink="teste-brasil.lojavirtualnuvem.com"
         open={store.ui.showSidebar}
+        iconLink="/static/logo.svg"
       >
         <MenuList
           items={[

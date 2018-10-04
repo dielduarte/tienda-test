@@ -5,12 +5,12 @@ import { Row, Column } from '../Flex';
 import Button from '../Button';
 import { SidebarContainer, SidebarHeader, Owner, SidebarIcon } from './Ui';
 
-function Sidebar({ storeName, owner, shopLink, children, open }) {
+function Sidebar({ storeName, owner, shopLink, children, open, iconLink }) {
   return (
     <SidebarContainer isOpen={open}>
       <SidebarHeader>
         <Row>
-          <SidebarIcon src="http://localhost:3000/static/logo.svg" />
+          <SidebarIcon src={iconLink} />
           <Column>
             <Regular>{storeName}</Regular>
             <Owner>{owner}</Owner>

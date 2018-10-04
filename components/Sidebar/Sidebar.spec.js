@@ -12,6 +12,7 @@ describe('Sidebar', () => {
         owner="Martín Palombo"
         shopLink="link.paraloja.com"
         open
+        iconLink="/static/logo.svg"
       >
         <MenuList
           items={[
