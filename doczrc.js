@@ -2,7 +2,7 @@ import { css } from 'docz-plugin-css';
 
 export default {
   title: 'Tienda Nube',
-  wrapper: 'components/withTheme.js',
+  wrapper: 'utils/withTheme.js',
   plugins: [
     css({
       preprocessor: 'postcss',

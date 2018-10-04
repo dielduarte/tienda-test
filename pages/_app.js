@@ -1,7 +1,7 @@
 import App, { Container } from 'next/app';
 import React from 'react';
 
-import WithTheme from '../components/WithTheme';
+import WithTheme from '../utils/WithTheme';
 import WithStore from '../utils/WithStore';
 
 import '../config/fontAwesome';
