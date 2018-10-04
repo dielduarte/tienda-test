@@ -54,7 +54,7 @@ function Ui({ store }) {
     <DefaultLayout>
       <Card>
         {!products.length ? (
-          <Regular>Você ainda naão cadastrou nenhum produto :(</Regular>
+          <Regular>Você ainda não cadastrou nenhum produto :(</Regular>
         ) : (
           <Table
             headers={[

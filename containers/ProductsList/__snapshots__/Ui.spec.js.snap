@@ -111,7 +111,7 @@ exports[`ProductsList => Ui should render correctly the empty message 1`] = `
     bordered={false}
   >
     <styled.h3>
-      Você ainda naão cadastrou nenhum produto :(
+      Você ainda não cadastrou nenhum produto :(
     </styled.h3>
   </styled.div>
 </withState(WithConsumer(lifecycle(withHandlers(layoutDefaut))))>
