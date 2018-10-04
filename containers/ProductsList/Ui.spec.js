@@ -35,7 +35,8 @@ describe('ProductsList => Ui', () => {
         ]
       ],
       page: 0,
-      setPage: jest.fn()
+      setPage: jest.fn(),
+      fetchingProdutcs: false
     };
 
     const wrapper = shallow(<Ui {...props} />);
@@ -44,12 +45,26 @@ describe('ProductsList => Ui', () => {
 
   it('should render correctly the empty message', () => {
     const props = {
+      store: { products: [] },
+      products: [],
+      page: 0,
+      setPage: jest.fn(),
+      fetchingProdutcs: false
+    };
+
+    const wrapper = shallow(<Ui {...props} />);
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  it('should render the loader', () => {
+    const props = {
       store: {
         products: []
       },
       products: [],
       page: 0,
-      setPage: jest.fn()
+      setPage: jest.fn(),
+      fetchingProdutcs: true
     };
 
     const wrapper = shallow(<Ui {...props} />);

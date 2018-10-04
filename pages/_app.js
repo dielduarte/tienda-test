@@ -4,6 +4,7 @@ import React from 'react';
 import WithTheme from '../utils/WithTheme';
 import WithStore from '../utils/WithStore';
 
+import 'loaders.css/loaders.css';
 import '../config/fontAwesome';
 
 class TiendaNubeApp extends App {

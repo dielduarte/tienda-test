@@ -1,6 +1,8 @@
-import { compose, withReducer } from 'recompose';
+import { compose, withReducer, lifecycle } from 'recompose';
 
 import { StoreContext, reducer, initialValue } from '../store';
+import actionTypes from '../store/actionTypes';
+import { get } from '../store/persist';
 
 const WithStore = props => {
   return (
@@ -10,6 +12,15 @@ const WithStore = props => {
   );
 };
 
-export default compose(withReducer('store', 'dispatch', reducer, initialValue))(
-  WithStore
-);
+export default compose(
+  withReducer('store', 'dispatch', reducer, initialValue),
+  lifecycle({
+    componentDidMount() {
+      const products = JSON.parse(get('products')) || [];
+      this.props.dispatch({
+        type: actionTypes.PERSIST,
+        products
+      });
+    }
+  })
+)(WithStore);

@@ -15,6 +15,7 @@ export default compose(
   mapProps(props => ({
     products: getPaginatedData(props, 20),
     page: props.page,
-    setPage: props.setPage
+    setPage: props.setPage,
+    fetchingProdutcs: props.store.fetchingProdutcs
   }))
 )(Ui);

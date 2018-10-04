@@ -2,6 +2,8 @@ import React, { Fragment } from 'react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+import Loader from 'react-loaders';
+
 import DefaultLayout from '../layouts/default';
 import Card from '../../components/Card';
 import Table, {
@@ -16,6 +18,11 @@ import PaginateItem from '../../components/PaginateItem';
 
 const ProductName = styled(Link)`
   margin-left: 10px;
+`;
+
+const Loading = styled(Loader)`
+  transform: translateX(50%);
+  margin-top: 100px;
 `;
 
 function renderRow(item, key) {
@@ -48,7 +55,15 @@ function renderRow(item, key) {
   );
 }
 
-function Ui({ store, products, page, setPage }) {
+function Ui({ products, page, setPage, fetchingProdutcs }) {
+  if (fetchingProdutcs) {
+    return (
+      <DefaultLayout>
+        <Loading type="cube-transition" color={'#000'} />
+      </DefaultLayout>
+    );
+  }
+
   return (
     <DefaultLayout>
       <Card>

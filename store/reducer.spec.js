@@ -39,4 +39,29 @@ describe('Reducers', () => {
     );
     expect(state.ui.showSidebar).toBeFalsy();
   });
+
+  it('should persist products to store', () => {
+    const products = [
+      {
+        name: 'Name of the product',
+        description: 'lorem ipsum dolor',
+        price: 12.2,
+        stock: 100,
+        pictures: ['Image1.png', 'Image2.png']
+      },
+      {
+        name: 'Name of the product 2',
+        description: 'lorem ipsum dolor',
+        price: 12.2,
+        stock: 100,
+        pictures: ['Image1.png', 'Image2.png']
+      }
+    ];
+    const state = reducer(
+      { ...initialValue },
+      { type: actionTypes.PERSIST, products }
+    );
+    expect(state.products).toEqual(products);
+    expect(state.fetchingProdutcs).toBeFalsy();
+  });
 });

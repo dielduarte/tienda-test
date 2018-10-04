@@ -122,3 +122,12 @@ exports[`ProductsList => Ui should render correctly the empty message 1`] = `
   </styled.div>
 </withState(WithConsumer(lifecycle(withHandlers(layoutDefaut))))>
 `;
+
+exports[`ProductsList => Ui should render the loader 1`] = `
+<withState(WithConsumer(lifecycle(withHandlers(layoutDefaut))))>
+  <Styled(Loader)
+    color="#000"
+    type="cube-transition"
+  />
+</withState(WithConsumer(lifecycle(withHandlers(layoutDefaut))))>
+`;

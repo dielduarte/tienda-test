@@ -3,7 +3,7 @@ import createActionTypes from 'redux-actiontypes-namespace';
 const actions = [
   {
     nameSpace: 'global',
-    types: ['RESET']
+    types: ['RESET', 'PERSIST']
   },
   {
     nameSpace: 'products',
