@@ -17,7 +17,9 @@ const formValues = {
 
 const validationSchema = Yup.object().shape({
   name: Yup.string().required('Nome é obrigatorio'),
-  price: Yup.number().required('Preço é obrigatorio')
+  price: Yup.number()
+    .min(0, 'Preço mínimo deve ser zero')
+    .required('Preço é obrigatorio')
 });
 
 export const addProduct = Router => props => newProduct => {

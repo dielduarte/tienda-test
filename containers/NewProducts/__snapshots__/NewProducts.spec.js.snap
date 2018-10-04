@@ -77,6 +77,7 @@ exports[`NewProducts should render correctly 1`] = `
           "_conditions": Array [],
           "_deps": Array [],
           "_exclusive": Object {
+            "min": true,
             "required": false,
           },
           "_mutate": false,
@@ -91,6 +92,7 @@ exports[`NewProducts should render correctly 1`] = `
             "refs": Map {},
           },
           "tests": Array [
+            [Function],
             [Function],
           ],
           "transforms": Array [

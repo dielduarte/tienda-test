@@ -22,7 +22,7 @@ exports[`Table shoud render correctly 1`] = `
       <styled.th
         key="3"
       >
-        Preço promocional variaçoões
+        Preço promocional variações
       </styled.th>
       <styled.th
         key="4"

@@ -61,6 +61,7 @@ function Ui({ initialValues, validationSchema, addProduct }) {
                     value={values.price}
                     type="number"
                     errors={errors.price}
+                    min="0"
                   />
                 </FixedContainer>
                 <FixedContainer>
@@ -70,6 +71,7 @@ function Ui({ initialValues, validationSchema, addProduct }) {
                     name="stock"
                     type="number"
                     value={values.stock}
+                    min="0"
                   />
                 </FixedContainer>
               </ResponsiveRow>

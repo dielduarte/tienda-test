@@ -61,7 +61,7 @@ function Ui({ store, products, page, setPage }) {
               'Estoque',
               'Preço original',
               'Preço promocional',
-              'variaçoões',
+              'variações',
               'Ações'
             ]}
           >

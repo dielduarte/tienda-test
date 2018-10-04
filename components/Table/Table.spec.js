@@ -11,7 +11,7 @@ describe('Table', () => {
           'Produto',
           'Estoque',
           'Preço original',
-          'Preço promocional variaçoões',
+          'Preço promocional variações',
           'Ações'
         ]}
       >

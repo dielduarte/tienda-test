@@ -12,7 +12,7 @@ exports[`ProductsList => Ui should render correctly 1`] = `
           "Estoque",
           "Preço original",
           "Preço promocional",
-          "variaçoões",
+          "variações",
           "Ações",
         ]
       }
