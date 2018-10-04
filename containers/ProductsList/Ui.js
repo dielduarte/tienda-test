@@ -12,6 +12,7 @@ import Table, {
 } from '../../components/Table';
 import Link from '../../components/Link';
 import { Regular } from '../../components/Text';
+import PaginateItem from '../../components/PaginateItem';
 
 const ProductName = styled(Link)`
   margin-left: 10px;
@@ -47,9 +48,7 @@ function renderRow(item, key) {
   );
 }
 
-function Ui({ store }) {
-  const { products } = store;
-
+function Ui({ store, products, page, setPage }) {
   return (
     <DefaultLayout>
       <Card>
@@ -66,10 +65,15 @@ function Ui({ store }) {
               'Ações'
             ]}
           >
-            {products.map((product, key) => renderRow(product, key))}
+            {products[page].map((product, key) => renderRow(product, key))}
           </Table>
         )}
       </Card>
+      {products.map((p, key) => (
+        <PaginateItem key={key} onClick={() => setPage(key)}>
+          {key + 1}
+        </PaginateItem>
+      ))}
     </DefaultLayout>
   );
 }

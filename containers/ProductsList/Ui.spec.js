@@ -17,15 +17,25 @@ describe('ProductsList => Ui', () => {
             price: 123,
             stock: ''
           },
+          { description: '', name: 'Product', photos: [], price: 123, stock: 1 }
+        ]
+      },
+      products: [
+        [
           {
             description: '',
-            name: 'Product',
-            photos: [],
+            name: 'Product with image',
+            photos: [
+              'data:image/jpeg;base64,/9j/2wCEAAgGBgcGBQgHBwcJCQg…1Bby2tykilgAeSK6aHU3aDYxJpos1c9KsCwVUzTVQXKf/2Q=='
+            ],
             price: 123,
-            stock: 1
-          }
+            stock: ''
+          },
+          { description: '', name: 'Product', photos: [], price: 123, stock: 1 }
         ]
-      }
+      ],
+      page: 0,
+      setPage: jest.fn()
     };
 
     const wrapper = shallow(<Ui {...props} />);
@@ -36,7 +46,10 @@ describe('ProductsList => Ui', () => {
     const props = {
       store: {
         products: []
-      }
+      },
+      products: [],
+      page: 0,
+      setPage: jest.fn()
     };
 
     const wrapper = shallow(<Ui {...props} />);

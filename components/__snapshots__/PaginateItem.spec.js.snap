@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaginateItem PaginateItem 1`] = `
+.c0 {
+  display: inline-block;
+  text-align: center;
+  margin-right: 2px;
+  padding-top: 2px;
+  font-size: 14px;
+  width: 20px;
+  height: 20px;
+}
+
+.c0:hover {
+  cursor: pointer;
+}
+
+<span
+  className="c0"
+>
+  1
+</span>
+`;

@@ -102,6 +102,12 @@ exports[`ProductsList => Ui should render correctly 1`] = `
       </styled.tr>
     </Table>
   </styled.div>
+  <styled.span
+    key="0"
+    onClick={[Function]}
+  >
+    1
+  </styled.span>
 </withState(WithConsumer(lifecycle(withHandlers(layoutDefaut))))>
 `;
 
